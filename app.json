@@ -1,29 +1,51 @@
 {
   "expo": {
-    "name": "janaApp",
-    "slug": "janaApp",
+    "name": "Jana App",
+    "slug": "jana-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/adaptive-icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "requireFullScreen": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.feijaoozin.janaapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "DEFAULT"
+        }
+      ],
+      [
+        "expo-video",
+        {
+          "supportsBackgroundPlayback": true,
+          "supportsPictureInPicture": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "34658461-e89b-4ec4-9317-daeb8f5c2d3a"
+      }
     }
   }
 }
