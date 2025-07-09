@@ -1,4 +1,5 @@
 import { Pressable, StyleSheet, Text } from "react-native";
+import * as Animatable from "react-native-animatable";
 
 interface BotaoProps {
   text: string;
