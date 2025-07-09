@@ -12,6 +12,7 @@ export default function Novidades() {
             "Mais".
           </Text>
         </View>
+
         <View>
           <Text style={styles.text1}>14/06/2025:</Text>
           <Text style={styles.text2}>
@@ -19,11 +20,20 @@ export default function Novidades() {
             "Novidades" e "Cartas".
           </Text>
         </View>
+
         <View>
           <Text style={styles.text1}>15/06/2025:</Text>
           <Text style={styles.text2}>
             Correção de BUGs. Repaginação da Splash Screen e do ícone do App.
             Criação das abas "Gerador de Imagens", "Whatsapp" e "Sobre".
+          </Text>
+        </View>
+
+        <View>
+          <Text style={styles.text1}>09/07/2025:</Text>
+          <Text style={styles.text2}>
+            Correção de BUGs. Repaginação da Splash Screen e do ícone do App.
+            Começando a criar animações no App.
           </Text>
         </View>
       </View>
@@ -45,7 +55,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-    gap: 96,
+    gap: 64,
   },
   title: {
     fontSize: 32,
