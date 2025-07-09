@@ -3,7 +3,7 @@ import { Feather, Ionicons } from "@expo/vector-icons";
 import TabRoutes from "./tab.routes";
 import StackRoutes from "../screens/news";
 import CardRoutes from "./card.routes";
-import Whats from "../screens/Whats";
+import Whats from "../screens/whats";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import ImageRoutes from "./imagens.routes";
 import Sobre from "../screens/sobre";

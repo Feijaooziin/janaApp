@@ -1,5 +1,4 @@
 import { createStackNavigator } from "@react-navigation/stack";
-import Profile from "../screens/news";
 import Cartas from "../screens/cartas";
 import Carta1 from "../screens/cartinhas/carta1";
 import Carta2 from "../screens/cartinhas/carta2";

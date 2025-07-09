@@ -1,6 +1,6 @@
 import Routes from "./src/routes";
 import { useState } from "react";
-import { Splash } from "./src/screens/Splash";
+import { Splash } from "./src/screens/splash";
 import { preventAutoHideAsync } from "expo-splash-screen";
 
 preventAutoHideAsync();
