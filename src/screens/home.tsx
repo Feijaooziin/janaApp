@@ -3,10 +3,13 @@ import styles from "../constants/styles";
 import { Feather, Ionicons } from "@expo/vector-icons";
 import { Alert, Text, View } from "react-native";
 import * as Animatable from "react-native-animatable";
+import { FadeIn } from "react-native-reanimated";
 
 export default function Home() {
   return (
-    <View
+    <Animatable.View
+      delay={2000}
+      animation="fadeIn"
       style={[
         styles.container,
         {
@@ -56,6 +59,6 @@ export default function Home() {
           }
         />
       </Animatable.View>
-    </View>
+    </Animatable.View>
   );
 }
